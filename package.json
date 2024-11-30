@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "\"learn redux\"",
   "scripts": {
-      "start": "parcel index.html",
-      "build": "parcel build index.html --public-url ./",
-      "test": "jest"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/mightyanubhav/learn-redux/issues"
   },
-  "homepage": "https://github.com/mightyanubhav/learn-redux#readme"
+  "homepage": "https://github.com/mightyanubhav/learn-redux#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "process": "^0.11.10"
+  }
 }
